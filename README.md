@@ -52,9 +52,6 @@ HARDWARE
 <details close>
  <summary> 
  <p align="center"> ESPAÑOL 🇪🇸 (HAZ CLICK)</p>
-
-
-   
  </summary>
 
 
