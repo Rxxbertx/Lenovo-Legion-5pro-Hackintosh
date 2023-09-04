@@ -49,7 +49,7 @@ HARDWARE
 
 
 
-<details close>
+<details open>
  <summary> 
  <p align="center"> ESPAÑOL 🇪🇸 (HAZ CLICK)</p>
 
