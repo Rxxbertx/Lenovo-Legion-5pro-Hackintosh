@@ -67,6 +67,7 @@ HARDWARE
 ## Índice
 
 - [**¿QUÉ FUNCIONA Y QUÉ NO?**](#qfyqn)
+
   - [General](#general)
   - [Multimedia](#multimedia)
   - [Funciones](#funciones)
@@ -81,7 +82,7 @@ HARDWARE
 
 - [**AYUDA**](#ayuda)
 
-- [**CRÉDITOS**](#créditos)
+- [**CREDITOS**](#creditos)
 
 
 
@@ -93,6 +94,7 @@ HARDWARE
 
 ¿QUÉ FUNCIONA Y QUÉ NO?
 -----------------------
+
 <a name="qfyqn"/>
 
 ### GENERAL
@@ -115,7 +117,7 @@ HARDWARE
 
 ### MULTIMEDIA
 
-<a name="multimedia"></a>
+<a name="multimedia"/>
 
 | Componente              | Compatibilidad              |
 |-------------------------|-----------------------------|
@@ -127,7 +129,7 @@ HARDWARE
 
 ### FUNCIONES
 
-<a name="funciones"></a>
+<a name="funciones"/>
 
 | Función                        | Compatibilidad                              |
 |--------------------------------|---------------------------------------------|
@@ -145,7 +147,7 @@ si quieres que pruebe mas funciones, abre una ISSUE preguntado acerca de la func
 SSDT USADOS
 -----------
 
-<a name="ssdt-usados"></a>
+<a name="ssdt-usados"/>
 
 | SSDT                                  | Descripción                                                                                                                                                    |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -167,7 +169,12 @@ KEXTS USADOS (Advertencia: Algunos de estos Kexts son solo para macOS BigSur, pa
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
+
+
 <a name="kexts-usados"/>
+
+
+
 
 
 | KEXT                                            | Descripción                                                                                         |
@@ -200,7 +207,7 @@ KEXTS USADOS (Advertencia: Algunos de estos Kexts son solo para macOS BigSur, pa
 
 ### SMBIOS Usado
 
-<a name="smbios-usado"></a>
+<a name="smbios-usado"/>
 
 
     MacBookPro16,3
@@ -211,7 +218,7 @@ KEXTS USADOS (Advertencia: Algunos de estos Kexts son solo para macOS BigSur, pa
 OPCIONES BIOS
 ----
 
-<a name="opciones-bios"></a>
+<a name="opciones-bios"/>
 
 
     Secure Boot : Disabled
@@ -225,7 +232,7 @@ OPCIONES BIOS
 AYUDA
 -----
 
-<a name="ayuda"></a>
+<a name="ayuda"/>
 
 <div align="center">
 
@@ -249,7 +256,7 @@ Si necesitas ayudas en el proceso de creacion de tu EFI **no dudes en escribirme
 CREDITOS
 --------
 
-<a name="creditos"></a>
+<a name="creditos"/>
 
 [@ChefKissInc](https://github.com/ChefKissInc) Muchas gracias por la ayuda y hacer todo esto posible, con vosotros se inicia una nueva era para AMD
 
@@ -274,14 +281,13 @@ CREDITOS
    
  </summary>
 
-<a name="ENG"></a>
-
 **YOU WON'T FIND ANY EFI TO DOWNLOAD**, I CAN HELP YOU CREATE YOUR OWN (see [HELP](#help) section below), thank you.
 
 ***
 ## Table of Contents
 
 - [**WHAT WORKS AND WHAT DOESN'T?**](#what-works-and-what-doesnt)
+
   - [General](#general)
   - [Multimedia](#multimedia)
   - [Functions](#functions)
@@ -304,7 +310,9 @@ CREDITOS
 
 WHAT WORKS AND WHAT DOESN'T?
 ---------------------------
+
 <a name="#what-works-and-what-doesnt"></a>
+
 ### GENERAL
 <a name="general"></a>
 | Component                | Compatibility |
