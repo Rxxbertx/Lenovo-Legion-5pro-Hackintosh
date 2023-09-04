@@ -69,7 +69,7 @@ HARDWARE
 
 ## Índice
 
-- [**¿QUÉ FUNCIONA Y QUÉ NO?**](#qué-funciona-y-qué-no)
+- [**¿QUÉ FUNCIONA Y QUÉ NO?**](#qfyqn)
   - [General](#general)
   - [Multimedia](#multimedia)
   - [Funciones](#funciones)
@@ -96,11 +96,11 @@ HARDWARE
 
 ¿QUÉ FUNCIONA Y QUÉ NO?
 -----------------------
-<a name="qué-funciona-y-qué-no"></a>
+<a name="qfyqn"></a>
 
 ### GENERAL
 
-<a name="general"></a>
+<a name="general"/>
 
 | Componente               | Compatibilidad |
 |--------------------------|----------------|
@@ -169,7 +169,9 @@ SSDT USADOS
 KEXTS USADOS (Advertencia: Algunos de estos Kexts son solo para macOS BigSur, para otras versiones de mac necesitaras otros kext y otras configuraciones)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-<a name="kexts-usados"></a>
+
+<a name="kexts-usados"/>
+
 
 | KEXT                                            | Descripción                                                                                         |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------|
