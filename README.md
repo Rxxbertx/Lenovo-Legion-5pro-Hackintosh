@@ -63,7 +63,7 @@ HARDWARE
 
 ## Índice
 
-- [**¿QUÉ FUNCIONA Y QUÉ NO?**](#quéfuncionayquéno)
+- [**¿QUÉ FUNCIONA?**](#qué-funciona)
 
   - [General](#general)
   - [Multimedia](#multimedia)
