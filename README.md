@@ -92,7 +92,7 @@ HARDWARE
 ¿QUÉ FUNCIONA Y QUÉ NO?
 -----------------------
 
-<a name="qfyqn"/>
+<a name="#qfyqn"/>
 
 ### GENERAL
 
