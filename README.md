@@ -285,7 +285,7 @@ CREDITOS
 ***
 ***
 
-WHAT WORKS AND WHAT DOESN'T?
+WHAT WORKS AND WHAT DOESNT?
 ---------------------------
 
 
