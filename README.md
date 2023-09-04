@@ -97,8 +97,11 @@ HARDWARE
 ¿QUÉ FUNCIONA Y QUÉ NO?
 -----------------------
 <a name="qué-funciona-y-qué-no"></a>
+
 ### GENERAL
+
 <a name="general"></a>
+
 | Componente               | Compatibilidad |
 |--------------------------|----------------|
 | CPU                      | ✅              |
@@ -114,7 +117,9 @@ HARDWARE
 
 
 ### MULTIMEDIA
+
 <a name="multimedia"></a>
+
 | Componente              | Compatibilidad              |
 |-------------------------|-----------------------------|
 | HDMI, TIPO C (DP)       | ❌ (PORQUE ESTAN CONECTADOS A LA DGPU) |
@@ -124,7 +129,9 @@ HARDWARE
 
 
 ### FUNCIONES
+
 <a name="funciones"></a>
+
 | Función                        | Compatibilidad                              |
 |--------------------------------|---------------------------------------------|
 | LUZ TECLADO                    | ✅                                           |
@@ -140,7 +147,9 @@ si quieres que pruebe mas funciones, abre una ISSUE preguntado acerca de la func
 
 SSDT USADOS
 -----------
+
 <a name="ssdt-usados"></a>
+
 | SSDT                                  | Descripción                                                                                                                                                    |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | [SSDT-EC](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-fix.html)               | Crea un dispositivo Embedded Controller falso para que macOS funcione correctamente, pero no desactiva el EC original, ya que los portátiles lo necesitan para el estado de la batería, las teclas FN, etc. |
@@ -159,7 +168,9 @@ SSDT USADOS
 
 KEXTS USADOS (Advertencia: Algunos de estos Kexts son solo para macOS BigSur, para otras versiones de mac necesitaras otros kext y otras configuraciones)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
+
 <a name="kexts-usados"></a>
+
 | KEXT                                            | Descripción                                                                                         |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | [NootedRed](https://github.com/NootInc/NootedRed)  | Proporciona aceleración gráfica para iGPU AMD Vega.                                                  |
@@ -189,7 +200,9 @@ KEXTS USADOS (Advertencia: Algunos de estos Kexts son solo para macOS BigSur, pa
 * * *
 
 ### SMBIOS Usado
+
 <a name="smbios-usado"></a>
+
 
     MacBookPro16,3
 
@@ -198,7 +211,9 @@ KEXTS USADOS (Advertencia: Algunos de estos Kexts son solo para macOS BigSur, pa
 
 OPCIONES BIOS
 ----
+
 <a name="opciones-bios"></a>
+
 
     Secure Boot : Disabled
     VRAM igpu: 2GB
@@ -210,7 +225,9 @@ OPCIONES BIOS
 
 AYUDA
 -----
+
 <a name="ayuda"></a>
+
 <div align="center">
 
 
@@ -232,7 +249,9 @@ Si necesitas ayudas en el proceso de creacion de tu EFI **no dudes en escribirme
 
 CREDITOS
 --------
+
 <a name="creditos"></a>
+
 [@ChefKissInc](https://github.com/ChefKissInc) Muchas gracias por la ayuda y hacer todo esto posible, con vosotros se inicia una nueva era para AMD
 
 [@Acidanthera](https://github.com/acidanthera) Gracias por multiples kext y gracias por Opencore
