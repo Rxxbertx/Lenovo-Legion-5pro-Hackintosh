@@ -211,7 +211,7 @@ OPCIONES BIOS
 AYUDA
 -----
 <a name="ayuda"></a>
-<div id="help" align="center">
+<div align="center">
 
 
 Si necesitas ayudas en el proceso de creacion de tu EFI **no dudes en escribirme** por telegram (haz clic en la imagen) 
@@ -403,7 +403,7 @@ HELP
 ----
 <a name="help"></a>
 
-<div id="help" align="center">
+<div align="center">
 
 If you need help with your EFI creation process, **don't hesitate to reach out to me** on Telegram (click the image below):
 
