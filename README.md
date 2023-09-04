@@ -1,5 +1,5 @@
 <div id="header" align="center">
-  <img src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif" width="100"/>
+  <img src="https://github.com/Rxxbertx/Lenovo-Legion-5pro-Hackintosh/blob/main/images/lenovoApple.png" width="150"/>
   
   Hackintosh LENOVO LEGION 5 PRO AMD 6TH GEN
 ==========================================
@@ -7,9 +7,12 @@
   Hola
   <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
 </h1>
-Espero que te sirva de ayuda (mas abajo tienes una seccion de ayuda), gracias
 
-**Version instalada**: macOS BigSur
+![Static Badge](https://img.shields.io/badge/macOS-BigSur-blue)
+![Static Badge](https://img.shields.io/badge/OpenCore-0.9.4-green)
+![GitHub issues](https://img.shields.io/github/issues/Rxxbertx/Lenovo-Legion-5pro-Hackintosh)
+
+**NO ENCONTRARAS NINGUNA EFI PARA DESCARGAR** , TE PUEDO AYUDAR A REALIZAR LA TUYA (mas abajo tienes una seccion de [AYUDA](#AYUDA) ), gracias
 
 </div>
 
@@ -139,11 +142,27 @@ MacBookPro16,3
 
 * * *
 
+<a name="ayuda"></a>
+
+
 AYUDA
 -----
+<div id="help" align="center">
 
-Si necesitas ayudas en el proceso de creacion de tu EFI no dudes en escribirme por telegram (haz clic en la imagen) o [aqui](https://t.me/JonnyEx)  
-Se parte de ChefKissInc una comunidad donde hacen posible que todas las laptop AMD puedan usar MAC (haz click en la imagen) o [aqui](https://t.me/+Bx3MO9Hq8whhNzk9)
+
+Si necesitas ayudas en el proceso de creacion de tu EFI **no dudes en escribirme** por telegram (haz clic en la imagen) 
+
+[<img src="https://i0.wp.com/img.talkandroid.com/uploads/2015/05/telegram_app_icon.png" alt="Telegram" width="90" height="90">](https://t.me/JonnyEx)
+
+
+
+**Se parte de ChefKissInc** una comunidad donde hacen posible que todas las laptop AMD puedan usar MAC (haz clic en la imagen)
+
+[<img src="https://i0.wp.com/img.talkandroid.com/uploads/2015/05/telegram_app_icon.png" alt="Telegram" width="90" height="90">](https://t.me/+Bx3MO9Hq8whhNzk9)
+
+  
+</div>
+
 
 * * *
 
