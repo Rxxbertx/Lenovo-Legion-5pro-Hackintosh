@@ -63,7 +63,7 @@ HARDWARE
 
 ## Índice
 
-- [**¿QUÉ FUNCIONA Y QUÉ NO?**](#qué-funciona-y-qué-no)
+- [**¿QUÉ FUNCIONA Y QUÉ NO?**](#quéfuncionayquéno)
 
   - [General](#general)
   - [Multimedia](#multimedia)
@@ -265,8 +265,8 @@ CREDITOS
 
 - [**WHAT WORKS AND WHAT DOESN'T?**](what-works-and-what-doesnt)
 
-  - [General](#generalEng)
-  - [Multimedia](#multimediaEng)
+  - [General](#general)
+  - [Multimedia](#multimedia)
   - [Functions](#functions)
 
 - [**USED SSDTs**](#used-ssdts)
@@ -288,11 +288,9 @@ CREDITOS
 WHAT WORKS AND WHAT DOESN'T?
 ---------------------------
 
-<a name="what-works-and-what-doesnt"/>
 
 ### GENERAL
 
-<a name="generalEng"/>
 
 | Component                | Compatibility |
 |--------------------------|---------------|
@@ -310,7 +308,6 @@ WHAT WORKS AND WHAT DOESN'T?
 
 ### MULTIMEDIA
 
-<a name="multlimediaEng"/>
 
 | Component               | Compatibility                   |
 |-------------------------|----------------------------------|
@@ -321,7 +318,6 @@ WHAT WORKS AND WHAT DOESN'T?
 
 ### FUNCTIONS
 
-<a name="functions"/>
 
 | Function                 | Compatibility                              |
 |--------------------------|---------------------------------------------|
@@ -340,7 +336,6 @@ If you want me to test more functions, open an ISSUE asking about the function, 
 USED SSDTs
 -----------
 
-<a name="used-ssdts"/>
 
 | SSDT                                  | Description                                                                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -358,11 +353,10 @@ USED SSDTs
 
 * * *
 
-USED KEXTS (Warning: Some of these Kexts are only for macOS Big Sur, for other macOS versions, you will need different Kexts and configurations)
+### USED KEXTS 
+(Warning: Some of these Kexts are only for macOS Big Sur, for other macOS versions, you will need different Kexts and configurations)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-
-<a name="used-kexts"/>
 
 
 | KEXT                                       | Description                                                                                          |
@@ -395,8 +389,6 @@ USED KEXTS (Warning: Some of these Kexts are only for macOS Big Sur, for other m
 
 ### USED SMBIOS
 
-<a name="used-smbios"/>
-
 
     MacBookPro16,3
 
@@ -404,8 +396,6 @@ USED KEXTS (Warning: Some of these Kexts are only for macOS Big Sur, for other m
 
  BIOS OPTIONS
  ----
-
-<a name="bios-options"/>
 
 
     Secure Boot : Disabled
@@ -419,8 +409,6 @@ USED KEXTS (Warning: Some of these Kexts are only for macOS Big Sur, for other m
 
 HELP
 ----
-
-<a name="help"/>
 
 
 <div align="center">
@@ -439,8 +427,6 @@ If you need help with your EFI creation process, **don't hesitate to reach out t
 
 CREDITS
 -------
-
-<a name="credits"/>
 
 [@ChefKissInc](https://github.com/ChefKissInc) Many thanks for your help and making all this possible; with you, a new era for AMD begins.
 
