@@ -74,11 +74,11 @@ HARDWARE
   - [Multimedia](#multimedia)
   - [Funciones](#funciones)
 
-- [**SSDT UTILIZADOS**](#ssdt-utilizados)
+- [**SSDT UTILIZADOS**](#ssdt-usados)
 
-- [**KEXTS UTILIZADOS**](#kexts-utilizados)
+- [**KEXTS UTILIZADOS**](#kexts-usados)
 
-- [**SMBIOS UTILIZADO**](#smbios-utilizado)
+- [**SMBIOS UTILIZADO**](#smbios-usado)
 
 - [**OPCIONES BIOS**](#opciones-bios)
 
