@@ -89,7 +89,7 @@ HARDWARE
 
 
 
-¿QUÉ FUNCIONA?
+¿QUE FUNCIONA?
 -----------------------
 
 ### GENERAL
