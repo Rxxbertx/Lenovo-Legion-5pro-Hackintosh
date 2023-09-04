@@ -13,10 +13,6 @@
 ![GitHub issues](https://img.shields.io/github/issues/Rxxbertx/Lenovo-Legion-5pro-Hackintosh)
 
 
- **SELECT LANGUAGUE**
-
-[Español 🇪🇸](#ESP) / [English 🇺🇸](#ENG)
-
 
 </div>
 
@@ -47,9 +43,15 @@ HARDWARE
 
 * * *
 
+<div align=center>
+  
+   **SELECT LANGUAGUE**
+   
+</div>
 
 
-<details open>
+
+<details close>
  <summary> 
  <p align="center"> ESPAÑOL 🇪🇸 (HAZ CLICK)</p>
 
