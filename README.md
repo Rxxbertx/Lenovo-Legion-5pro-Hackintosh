@@ -286,10 +286,10 @@ CREDITOS
 ***
 ## Table of Contents
 
-- [**WHAT WORKS AND WHAT DOESN'T?**](#what-works-and-what-doesnt)
+- [**WHAT WORKS AND WHAT DOESN'T?**](what-works-and-what-doesnt)
 
-  - [General](#general)
-  - [Multimedia](#multimedia)
+  - [General](#generalEng)
+  - [Multimedia](#multimediaEng)
   - [Functions](#functions)
 
 - [**USED SSDTs**](#used-ssdts)
@@ -311,10 +311,12 @@ CREDITOS
 WHAT WORKS AND WHAT DOESN'T?
 ---------------------------
 
-<a name="#what-works-and-what-doesnt"></a>
+<a name="what-works-and-what-doesnt"/>
 
 ### GENERAL
-<a name="general"></a>
+
+<a name="generalEng"/>
+
 | Component                | Compatibility |
 |--------------------------|---------------|
 | CPU                      | ✅             |
@@ -330,7 +332,8 @@ WHAT WORKS AND WHAT DOESN'T?
 | TRACKPAD                 | ✅             |
 
 ### MULTIMEDIA
-<a name="multlimedia"></a>
+
+<a name="multlimediaEng"/>
 
 | Component               | Compatibility                   |
 |-------------------------|----------------------------------|
@@ -340,7 +343,9 @@ WHAT WORKS AND WHAT DOESN'T?
 | CAMERA                  | ✅                              |
 
 ### FUNCTIONS
-<a name="functions"></a>
+
+<a name="functions"/>
+
 | Function                 | Compatibility                              |
 |--------------------------|---------------------------------------------|
 | KEYBOARD BACKLIGHT       | ✅                                           |
@@ -357,7 +362,9 @@ If you want me to test more functions, open an ISSUE asking about the function, 
 
 USED SSDTs
 -----------
-<a name="used-ssdts"></a>
+
+<a name="used-ssdts"/>
+
 | SSDT                                  | Description                                                                                                                                      |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | [SSDT-EC](https://dortania.github.io/Getting-Started-With-ACPI/Universal/ec-fix.html)           | Creates a fake Embedded Controller device for macOS to work correctly but does not disable the original EC, as laptops need it for battery status, FN keys, etc. |
@@ -376,7 +383,11 @@ USED SSDTs
 
 USED KEXTS (Warning: Some of these Kexts are only for macOS Big Sur, for other macOS versions, you will need different Kexts and configurations)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-<a name="used-kexts"></a>
+
+
+<a name="used-kexts"/>
+
+
 | KEXT                                       | Description                                                                                          |
 |--------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [NootedRed](https://github.com/NootInc/NootedRed) | Provides graphics acceleration for AMD Vega iGPU.                                                  |
@@ -406,7 +417,9 @@ USED KEXTS (Warning: Some of these Kexts are only for macOS Big Sur, for other m
 * * *
 
 ### USED SMBIOS
-<a name="used-smbios"></a>
+
+<a name="used-smbios"/>
+
 
     MacBookPro16,3
 
@@ -414,7 +427,9 @@ USED KEXTS (Warning: Some of these Kexts are only for macOS Big Sur, for other m
 
  BIOS OPTIONS
  ----
-<a name="bios-options"></a>
+
+<a name="bios-options"/>
+
 
     Secure Boot : Disabled
     VRAM igpu: 2GB
@@ -427,7 +442,9 @@ USED KEXTS (Warning: Some of these Kexts are only for macOS Big Sur, for other m
 
 HELP
 ----
-<a name="help"></a>
+
+<a name="help"/>
+
 
 <div align="center">
 
@@ -445,7 +462,8 @@ If you need help with your EFI creation process, **don't hesitate to reach out t
 
 CREDITS
 -------
-<a name="credits"></a>
+
+<a name="credits"/>
 
 [@ChefKissInc](https://github.com/ChefKissInc) Many thanks for your help and making all this possible; with you, a new era for AMD begins.
 
@@ -466,7 +484,7 @@ CREDITS
 PHOTOS
 ---
 
-<div id="PH" align="center">
+<div align="center">
 
 <img src="https://github.com/Rxxbertx/Lenovo-Legion-5pro-Hackintosh/blob/main/images/macinfo.png"/>
 
