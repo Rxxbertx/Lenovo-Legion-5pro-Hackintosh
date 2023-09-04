@@ -164,10 +164,6 @@ SSDT USADOS
 
 KEXTS USADOS (Advertencia: Algunos de estos Kexts son solo para macOS BigSur, para otras versiones de mac necesitaras otros kext y otras configuraciones)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-
-
 <a name="kexts-usados"/>
 
 
