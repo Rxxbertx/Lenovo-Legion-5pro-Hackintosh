@@ -258,7 +258,7 @@ CREDITOS
 
 <a name="ENG"></a>
 
-**YOU WON'T FIND ANY EFI TO DOWNLOAD**, I CAN HELP YOU CREATE YOUR OWN (see [HELP](#HELP) section below), thank you.
+**YOU WON'T FIND ANY EFI TO DOWNLOAD**, I CAN HELP YOU CREATE YOUR OWN (see [HELP](#help) section below), thank you.
 
 ***
 ## Table of Contents
@@ -398,7 +398,6 @@ USED KEXTS (Warning: Some of these Kexts are only for macOS Big Sur, for other m
 * * *
 
 
-<a name="HELP"></a>
 
 HELP
 ----
