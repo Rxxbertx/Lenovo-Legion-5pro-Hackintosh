@@ -63,7 +63,7 @@ HARDWARE
 
 ## Índice
 
-- [**¿QUÉ FUNCIONA Y QUÉ NO?**](#qfyqn)
+- [**¿QUÉ FUNCIONA Y QUÉ NO?**](#qué-funciona-y-qué-no)
 
   - [General](#general)
   - [Multimedia](#multimedia)
@@ -91,8 +91,6 @@ HARDWARE
 
 ¿QUÉ FUNCIONA Y QUÉ NO?
 -----------------------
-
-<a name="#qfyqn"/>
 
 ### GENERAL
 
@@ -139,7 +137,6 @@ si quieres que pruebe mas funciones, abre una ISSUE preguntado acerca de la func
 SSDT USADOS
 -----------
 
-<a name="ssdt-usados"/>
 
 | SSDT                                  | Descripción                                                                                                                                                    |
 |------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -157,7 +154,7 @@ SSDT USADOS
 
 * * *
 
-KEXTS USADOS 
+### KEXTS USADOS 
 (Advertencia: Algunos de estos Kexts son solo para macOS BigSur, para otras versiones de mac necesitaras otros kext y otras configuraciones)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -196,8 +193,6 @@ KEXTS USADOS
 
 ### SMBIOS Usado
 
-<a name="smbios-usado"/>
-
 
     MacBookPro16,3
 
@@ -206,9 +201,6 @@ KEXTS USADOS
 
 OPCIONES BIOS
 ----
-
-<a name="opciones-bios"/>
-
 
     Secure Boot : Disabled
     VRAM igpu: 2GB
@@ -220,8 +212,6 @@ OPCIONES BIOS
 
 AYUDA
 -----
-
-<a name="ayuda"/>
 
 <div align="center">
 
@@ -244,8 +234,6 @@ Si necesitas ayudas en el proceso de creacion de tu EFI **no dudes en escribirme
 
 CREDITOS
 --------
-
-<a name="creditos"/>
 
 [@ChefKissInc](https://github.com/ChefKissInc) Muchas gracias por la ayuda y hacer todo esto posible, con vosotros se inicia una nueva era para AMD
 
