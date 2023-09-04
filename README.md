@@ -34,9 +34,9 @@ HARDWARE
 | WIFI + BT     | Intel AX210 NGW                   |
 | DISPLAY       | CSO 165HZ IPS HDR                 |
 | CAMERA        | 720p Sonix                        |
-| TECLADO       | USB ITE 8910                      |
+| KEYBOARD       | USB ITE 8910                      |
 | TRACKPAD      | I2C HID                           |
-| BATERIA       | 80Wh                              |
+| BATTERY      | 80Wh                              |
 
 
 * * *
