@@ -63,17 +63,17 @@ HARDWARE
 
 ## Índice
 
-- [**¿QUÉ FUNCIONA Y QUÉ NO?**](#qfyqn)
+- [**¿QUÉ FUNCIONA Y QUÉ NO?**](qfyqn)
 
   - [General](#general)
   - [Multimedia](#multimedia)
   - [Funciones](#funciones)
 
-- [**SSDT UTILIZADOS**](#ssdt-usados)
+- [**SSDT USADOS**](#ssdt-usados)
 
-- [**KEXTS UTILIZADOS**](#kexts-usados)
+- [**KEXTS USADOS**](#kexts-usados)
 
-- [**SMBIOS UTILIZADO**](#smbios-usado)
+- [**SMBIOS USADO**](#smbios-usado)
 
 - [**OPCIONES BIOS**](#opciones-bios)
 
