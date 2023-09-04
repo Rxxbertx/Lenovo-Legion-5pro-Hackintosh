@@ -59,9 +59,6 @@ HARDWARE
 
 
 
-<a name="ESP"></a>
-
-
 **NO ENCONTRARAS NINGUNA EFI PARA DESCARGAR** , TE PUEDO AYUDAR A REALIZAR LA TUYA (mas abajo tienes una seccion de [AYUDA](#ayuda) ), gracias
 
 
@@ -96,7 +93,7 @@ HARDWARE
 
 ¿QUÉ FUNCIONA Y QUÉ NO?
 -----------------------
-<a name="qfyqn"></a>
+<a name="qfyqn"/>
 
 ### GENERAL
 
