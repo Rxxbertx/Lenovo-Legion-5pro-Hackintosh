@@ -437,4 +437,21 @@ CREDITS
 </details>
 
 
+PHOTOS
+---
 
+<div id="PH" align="center">
+
+<img src="https://github.com/Rxxbertx/Lenovo-Legion-5pro-Hackintosh/blob/main/images/macinfo.png"/>
+
+<img src="https://github.com/Rxxbertx/Lenovo-Legion-5pro-Hackintosh/blob/main/images/macusb.png"/>
+
+<img src="https://github.com/Rxxbertx/Lenovo-Legion-5pro-Hackintosh/blob/main/images/peinfo.png"/>
+
+<img src="https://github.com/Rxxbertx/Lenovo-Legion-5pro-Hackintosh/blob/main/images/displayinfo.png"/>
+
+<img src="https://github.com/Rxxbertx/Lenovo-Legion-5pro-Hackintosh/blob/main/images/cpubench.png"/>
+
+<img src="https://github.com/Rxxbertx/Lenovo-Legion-5pro-Hackintosh/blob/main/images/gpubench.png"/>
+
+</div>
