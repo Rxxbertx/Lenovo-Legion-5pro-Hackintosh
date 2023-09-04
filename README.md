@@ -263,7 +263,7 @@ CREDITOS
 ***
 ## Table of Contents
 
-- [**WHAT WORKS AND WHAT DOESN'T?**](#what-works)
+- [**WHAT WORKS AND WHAT DOESN'T?**](#what-works-and-what-doesnt)
 
   - [General](#general)
   - [Multimedia](#multimedia)
@@ -285,7 +285,7 @@ CREDITOS
 ***
 ***
 
-WHAT WORKS?
+WHAT WORKS AND WHAT DOESN'T?
 ---------------------------
 
 
