@@ -25,7 +25,7 @@ HARDWARE
 |---------------|-----------------------------------|
 | CPU           | AMD Ryzen 7 5800h (8 cores 16 threads) |
 | dGPU          | NVIDIA RTX 3070 8GB               |
-| iGPU          | AMD Vega RX10                    |
+| iGPU          | AMD Vega 8                    |
 | RAM           | 16GB 3200mhz DDR4                 |
 | SSD           | CRUCIAL P5 PLUS nvme              |
 | USB           | 3.2  XHC0 XHC1   |
