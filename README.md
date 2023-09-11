@@ -6,7 +6,7 @@
 
   <img src="https://github.com/Rxxbertx/Lenovo-Legion-5pro-Hackintosh/blob/main/images/mac.png" width="650"/>
 
-![Static Badge](https://img.shields.io/badge/macOS-BigSur-blue)
+![Static Badge](https://img.shields.io/badge/macOS-Ventura-yellow)
 ![Static Badge](https://img.shields.io/badge/OpenCore-0.9.4-green)
 ![GitHub issues](https://img.shields.io/github/issues/Rxxbertx/Lenovo-Legion-5pro-Hackintosh)
 
@@ -268,7 +268,7 @@ CREDITOS
 ***
 
 > [!IMPORTANT]
-> NUEVA ACTUALIZACION, AHORA VENTURA, se han realizado cambios en los kexts
+> NEW UPDATE, NOW VENTURA, changes have been made to kexts
 
 
 
