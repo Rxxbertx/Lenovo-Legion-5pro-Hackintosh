@@ -160,7 +160,7 @@ SSDT USADOS
 * * *
 
 ### KEXTS USADOS 
-(Advertencia: Algunos de estos Kexts son solo para macOS BigSur, para otras versiones de mac necesitaras otros kext y otras configuraciones)
+(Advertencia: Algunos de estos Kexts son solo para macOS Ventura, para otras versiones de mac necesitaras otros kext y otras configuraciones)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -366,7 +366,7 @@ USED SSDTs
 * * *
 
 ### USED KEXTS 
-(Warning: Some of these Kexts are only for macOS Big Sur, for other macOS versions, you will need different Kexts and configurations)
+(Warning: Some of these Kexts are only for macOS Ventura, for other macOS versions, you will need different Kexts and configurations)
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
