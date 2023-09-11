@@ -11,7 +11,6 @@
 ![GitHub issues](https://img.shields.io/github/issues/Rxxbertx/Lenovo-Legion-5pro-Hackintosh)
 
 
-
 </div>
 
 
@@ -60,6 +59,12 @@ HARDWARE
 
 
 ***
+
+
+> [IMPORTANT]
+> NUEVA ACTUALIZACION, AHORA VENTURA, se han realizado cambios en los kexts
+
+
 
 ## Índice
 
@@ -165,9 +170,9 @@ SSDT USADOS
 
 | KEXT                                            | Descripción                                                                                         |
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------|
-| [NootedRed](https://github.com/NootInc/NootedRed)  | Proporciona aceleración gráfica para iGPU AMD Vega.                                                  |
+| [NootedRed](https://github.com/ChefKissInc/NootedRed)  | Proporciona aceleración gráfica para iGPU AMD Vega.                                                 |
 | [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) | Admite la mayoría de las tarjetas Intel Wi-Fi. AirportItlwm utiliza la pila Wi-Fi de macOS.   |
-| [AMDTscSync](https://github.com/naveenkrdy/AmdTscSync)   | Sincroniza el contador de marca de tiempo (TSC): generalmente solo es útil para APU AMD que serían tremendamente lentas sin él. |
+| ~~[AMDTscSync](https://github.com/naveenkrdy/AmdTscSync)~~ En su lugar se NECESITA TSCTIMEOUT (UEFI > QUIRKS) | ~~Sincroniza el contador de marca de tiempo (TSC): generalmente solo es útil para APU AMD que serían tremendamente lentas sin él.~~ Por algun motivo el anterior kext no funciona en esta laptop para Ventura, lo ideal es usar la opcion propia de OPENCORE con un valor de 500.000 **(SE ESTA TRABAJANDO EN NUEVO KEXT TSC, POR AHORA ESTA ES LA UNICA SOLUCIÓN)** |
 | [AppleALC](https://github.com/acidanthera/AppleALC)     | Parchea la pila de audio de Apple ( AppleHDA/ AppleGFXHDA) para permitir códecs de audio y audio HDMI no compatibles.   |
 | [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | Brinda soporte para notificaciones de cambio de brillo ACPI (que generalmente provienen de las teclas de función (FN) del teclado). |
 | [ECEnabler](https://github.com/1Revenger1/ECEnabler)    | Permite que macOS lea campos EC de más de 8 bits, eliminando la necesidad de dividirlos manualmente. |
@@ -261,6 +266,13 @@ CREDITOS
 **YOU WON'T FIND ANY EFI TO DOWNLOAD**, I CAN HELP YOU CREATE YOUR OWN (see [HELP](#help) section below), thank you.
 
 ***
+
+> [!IMPORTANT]
+> NUEVA ACTUALIZACION, AHORA VENTURA, se han realizado cambios en los kexts
+
+
+
+
 ## Table of Contents
 
 - [**WHAT WORKS AND WHAT DOESN'T?**](#what-works-and-what-doesnt)
@@ -361,9 +373,9 @@ USED SSDTs
 
 | KEXT                                       | Description                                                                                          |
 |--------------------------------------------|------------------------------------------------------------------------------------------------------|
-| [NootedRed](https://github.com/NootInc/NootedRed) | Provides graphics acceleration for AMD Vega iGPU.                                                  |
+| [NootedRed](https://github.com/ChefKissInc/NootedRed) | Provides graphics acceleration for AMD Vega iGPU.                                                  |
 | [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) | Supports most Intel Wi-Fi cards. AirportItlwm uses the macOS Wi-Fi stack.               |
-| [AMDTscSync](https://github.com/naveenkrdy/AmdTscSync)   | Synchronizes the Timestamp Counter (TSC), generally only useful for AMD APU, which would be extremely slow without it. |
+|~~[AMDTscSync](https://github.com/naveenkrdy/AmdTscSync)~~ TSCTIMEOUT (UEFI > QUIRKS) is REQUIRED instead | ~~Sync timestamp counter (TSC): generally only useful for AMD APUs which would be tremendously slow without it.~~ For some reason the above kext does not work on this laptop for Ventura, the ideal is to use OPENCORE's own option with a value of 500,000 **(NEW KEXT TSC IS BEING WORKED ON, FOR NOW THIS IS THE ONLY SOLUTION)** |
 | [AppleALC](https://github.com/acidanthera/AppleALC)     | Patches the Apple audio stack (AppleHDA/AppleGFXHDA) to allow unsupported audio codecs and HDMI audio.   |
 | [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | Provides support for ACPI brightness change notifications (usually coming from keyboard function (FN) keys). |
 | [ECEnabler](https://github.com/1Revenger1/ECEnabler)    | Allows macOS to read EC fields over 8 bits, eliminating the need to split them manually. |
