@@ -4,7 +4,7 @@
   Hackintosh LENOVO LEGION 5 PRO AMD 6TH GEN
 ==========================================
 
-  <img src="https://github.com/Rxxbertx/Lenovo-Legion-5pro-Hackintosh/blob/main/images/mac.png" width="650"/>
+  <img src="https://github.com/Rxxbertx/Lenovo-Legion-5pro-Hackintosh/blob/main/images/mac2.png" width="650"/>
 
 ![Static Badge](https://img.shields.io/badge/macOS-Ventura-yellow)
 ![Static Badge](https://img.shields.io/badge/OpenCore-0.9.4-green)
