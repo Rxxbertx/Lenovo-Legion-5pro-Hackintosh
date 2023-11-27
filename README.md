@@ -61,7 +61,7 @@ HARDWARE
 ***
 
 
-> [IMPORTANT]
+> [!IMPORTANT]
 > NUEVA ACTUALIZACION (27/11/2023), AHORA VENTURA, se han realizado cambios en los kexts
 
 
