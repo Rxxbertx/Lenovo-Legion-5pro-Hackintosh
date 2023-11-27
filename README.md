@@ -7,7 +7,7 @@
   <img src="https://github.com/Rxxbertx/Lenovo-Legion-5pro-Hackintosh/blob/main/images/mac2.png" width="650"/>
 
 ![Static Badge](https://img.shields.io/badge/macOS-Ventura-yellow)
-![Static Badge](https://img.shields.io/badge/OpenCore-0.9.4-green)
+![Static Badge](https://img.shields.io/badge/OpenCore-0.9.6-green)
 ![GitHub issues](https://img.shields.io/github/issues/Rxxbertx/Lenovo-Legion-5pro-Hackintosh)
 
 
@@ -62,7 +62,7 @@ HARDWARE
 
 
 > [IMPORTANT]
-> NUEVA ACTUALIZACION, AHORA VENTURA, se han realizado cambios en los kexts
+> NUEVA ACTUALIZACION (27/11/2023), AHORA VENTURA, se han realizado cambios en los kexts
 
 
 
@@ -131,7 +131,7 @@ HARDWARE
 | LUZ TECLADO                    | ✅                                           |
 | LUZ LOGOTIPO                   | ✅                                           |
 | APAGAR/REINCIAR                | ✅                                           |
-| SUSPENDER                         | ❌ (se esta trabajando en una solucion)      |
+| SUSPENDER                         | ✅ (POR FIN SI FUNCIONA)      |
 | DISPLAY: CONTROL DE BRILLO     | HDR Mode ✅<br>Normal Mode ❌                |
 | AIRDROP                        | ✅, SOLO DE ANDROID A MAC ([WARPSHARE](https://github.com/moseoridev/WarpShare)) |
 
@@ -172,7 +172,7 @@ SSDT USADOS
 |----------------------------------------------------|-----------------------------------------------------------------------------------------------------|
 | [NootedRed](https://github.com/ChefKissInc/NootedRed)  | Proporciona aceleración gráfica para iGPU AMD Vega.                                                 |
 | [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) | Admite la mayoría de las tarjetas Intel Wi-Fi. AirportItlwm utiliza la pila Wi-Fi de macOS.   |
-| ~~[AMDTscSync](https://github.com/naveenkrdy/AmdTscSync)~~ En su lugar se NECESITA TSCTIMEOUT (UEFI > QUIRKS) | ~~Sincroniza el contador de marca de tiempo (TSC): generalmente solo es útil para APU AMD que serían tremendamente lentas sin él.~~ Por algun motivo el anterior kext no funciona en esta laptop para Ventura, lo ideal es usar la opcion propia de OPENCORE con un valor de 500.000 **(SE ESTA TRABAJANDO EN NUEVO KEXT TSC, POR AHORA ESTA ES LA UNICA SOLUCIÓN)** |
+| ~~[AMDTscSync](https://github.com/naveenkrdy/AmdTscSync)~~ ~~En su lugar se NECESITA TSCTIMEOUT (UEFI > QUIRKS)~~ [CPUTSCSYNC BY SEEY6](https://github.com/Seey6/CpuTscSync) | ~~Sincroniza el contador de marca de tiempo (TSC): generalmente solo es útil para APU AMD que serían tremendamente lentas sin él.~~ ~~Por algun motivo el anterior kext no funciona en esta laptop para Ventura, lo ideal es usar la opcion propia de OPENCORE con un valor de 500.000 **(SE ESTA TRABAJANDO EN NUEVO KEXT TSC, POR AHORA ESTA ES LA UNICA SOLUCIÓN)**~~ NUEVO FIX, AHORA GRACIAS A ESTO FUNCIONA SUSPENDER Y DESPERTAR DE MANERA CORRECTA |
 | [AppleALC](https://github.com/acidanthera/AppleALC)     | Parchea la pila de audio de Apple ( AppleHDA/ AppleGFXHDA) para permitir códecs de audio y audio HDMI no compatibles.   |
 | [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | Brinda soporte para notificaciones de cambio de brillo ACPI (que generalmente provienen de las teclas de función (FN) del teclado). |
 | [ECEnabler](https://github.com/1Revenger1/ECEnabler)    | Permite que macOS lea campos EC de más de 8 bits, eliminando la necesidad de dividirlos manualmente. |
@@ -268,7 +268,7 @@ CREDITOS
 ***
 
 > [!IMPORTANT]
-> NEW UPDATE, NOW VENTURA, changes have been made to kexts
+> NEW UPDATE (27/11/2023), NOW VENTURA, changes have been made to kexts
 
 
 
@@ -336,7 +336,7 @@ WHAT WORKS AND WHAT DOESN'T?
 | KEYBOARD BACKLIGHT       | ✅                                           |
 | LOGO BACKLIGHT           | ✅                                           |
 | SHUTDOWN/RESTART         | ✅                                           |
-| SLEEP                    | ❌ (work in progress)                      |
+| SLEEP                    | ✅ (FIXED BY @SEEY6)                      |
 | DISPLAY: BRIGHTNESS CONTROL | HDR Mode ✅<br>Normal Mode ❌             |
 | AIRDROP                  | ✅, ANDROID TO MAC ONLY ([WARPSHARE](https://github.com/moseoridev/WarpShare)) |
 | iServices (AppStore,Facetime...) | ✅|
@@ -375,7 +375,7 @@ USED SSDTs
 |--------------------------------------------|------------------------------------------------------------------------------------------------------|
 | [NootedRed](https://github.com/ChefKissInc/NootedRed) | Provides graphics acceleration for AMD Vega iGPU.                                                  |
 | [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) | Supports most Intel Wi-Fi cards. AirportItlwm uses the macOS Wi-Fi stack.               |
-|~~[AMDTscSync](https://github.com/naveenkrdy/AmdTscSync)~~ TSCTIMEOUT (UEFI > QUIRKS) is REQUIRED instead | ~~Sync timestamp counter (TSC): generally only useful for AMD APUs which would be tremendously slow without it.~~ For some reason the above kext does not work on this laptop for Ventura, the ideal is to use OPENCORE's own option with a value of 500,000 **(NEW KEXT TSC IS BEING WORKED ON, FOR NOW THIS IS THE ONLY SOLUTION)** |
+|~~TSCTIMEOUT (UEFI > QUIRKS) is REQUIRED instead~~ [CPUTSCSYNC BY SEEY6](https://github.com/Seey6/CpuTscSync) | ~~Sync timestamp counter (TSC): generally only useful for AMD APUs which would be tremendously slow without it.For some reason the above kext does not work on this laptop for Ventura, the ideal is to use OPENCORE's own option with a value of 500,000 **(NEW KEXT TSC IS BEING WORKED ON, FOR NOW THIS IS THE ONLY SOLUTION)**~~ Thanks to this now sleep and wake works!!! |
 | [AppleALC](https://github.com/acidanthera/AppleALC)     | Patches the Apple audio stack (AppleHDA/AppleGFXHDA) to allow unsupported audio codecs and HDMI audio.   |
 | [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | Provides support for ACPI brightness change notifications (usually coming from keyboard function (FN) keys). |
 | [ECEnabler](https://github.com/1Revenger1/ECEnabler)    | Allows macOS to read EC fields over 8 bits, eliminating the need to split them manually. |
