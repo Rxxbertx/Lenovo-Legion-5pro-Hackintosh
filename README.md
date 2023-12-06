@@ -120,7 +120,7 @@ HARDWARE
 |-------------------------|-----------------------------|
 | HDMI, TIPO C (DP)       | ❌ (PORQUE ESTAN CONECTADOS A LA DGPU) |
 | AUDIO                   | ✅                           |
-| MICROFONO               | ❌                           |
+| MICROFONO               | ✅                           |
 | CAMERA                  | ✅                           |
 
 
@@ -172,7 +172,7 @@ SSDT USADOS
 | [NootedRed](https://github.com/ChefKissInc/NootedRed)  | Proporciona aceleración gráfica para iGPU AMD Vega.                                                 |
 | [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) | Admite la mayoría de las tarjetas Intel Wi-Fi. AirportItlwm utiliza la pila Wi-Fi de macOS.   |
 | ~~[AMDTscSync](https://github.com/naveenkrdy/AmdTscSync)~~ ~~En su lugar se NECESITA TSCTIMEOUT (UEFI > QUIRKS)~~ [CPUTSCSYNC BY SEEY6](https://github.com/Seey6/CpuTscSync) | ~~Sincroniza el contador de marca de tiempo (TSC): generalmente solo es útil para APU AMD que serían tremendamente lentas sin él.~~ ~~Por algun motivo el anterior kext no funciona en esta laptop para Ventura, lo ideal es usar la opcion propia de OPENCORE con un valor de 500.000 **(SE ESTA TRABAJANDO EN NUEVO KEXT TSC, POR AHORA ESTA ES LA UNICA SOLUCIÓN)**~~ NUEVO FIX, AHORA GRACIAS A ESTO FUNCIONA SUSPENDER Y DESPERTAR DE MANERA CORRECTA |
-| [AppleALC](https://github.com/acidanthera/AppleALC)     | Parchea la pila de audio de Apple ( AppleHDA/ AppleGFXHDA) para permitir códecs de audio y audio HDMI no compatibles.   |
+| [AppleALC-AMD](https://github.com/isKoi/AppleALC)| KEXT ESPECIAL PARA HABILITAR MICRÓFONO EN AMD,(ESTE KEXT ADEMAS TIENE UN PLUS PARA FUNCIONAR ESPECIALMENTE CON ALC287 LENOVO LEGION 5 PRO USANDO LAYOUT 13; Parchea la pila de audio de Apple ( AppleHDA/ AppleGFXHDA) para permitir códecs de audio y audio HDMI no compatibles.   |
 | [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | Brinda soporte para notificaciones de cambio de brillo ACPI (que generalmente provienen de las teclas de función (FN) del teclado). |
 | [ECEnabler](https://github.com/1Revenger1/ECEnabler)    | Permite que macOS lea campos EC de más de 8 bits, eliminando la necesidad de dividirlos manualmente. |
 | [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | Extensión de Lilu Kernel para habilitar: Sidecar, NightShift, AirPlay to Mac, Universal Control, Continuity Camera. |
@@ -324,7 +324,7 @@ WHAT WORKS AND WHAT DOESN'T?
 |-------------------------|----------------------------------|
 | HDMI, TYPE C (DP)       | ❌ (BECAUSE THEY'RE CONNECTED TO DGPU) |
 | AUDIO                   | ✅                              |
-| MICROPHONE              | ❌                              |
+| MICROPHONE              | ✅                              |
 | CAMERA                  | ✅                              |
 
 ### FUNCTIONS
@@ -374,7 +374,7 @@ USED SSDTs
 | [NootedRed](https://github.com/ChefKissInc/NootedRed) | Provides graphics acceleration for AMD Vega iGPU.                                                  |
 | [AirportItlwm](https://github.com/OpenIntelWireless/itlwm) | Supports most Intel Wi-Fi cards. AirportItlwm uses the macOS Wi-Fi stack.               |
 |~~TSCTIMEOUT (UEFI > QUIRKS) is REQUIRED instead~~ [CPUTSCSYNC BY SEEY6](https://github.com/Seey6/CpuTscSync) | ~~Sync timestamp counter (TSC): generally only useful for AMD APUs which would be tremendously slow without it.For some reason the above kext does not work on this laptop for Ventura, the ideal is to use OPENCORE's own option with a value of 500,000 **(NEW KEXT TSC IS BEING WORKED ON, FOR NOW THIS IS THE ONLY SOLUTION)**~~ Thanks to this now sleep and wake works!!! |
-| [AppleALC](https://github.com/acidanthera/AppleALC)     | Patches the Apple audio stack (AppleHDA/AppleGFXHDA) to allow unsupported audio codecs and HDMI audio.   |
+| [AppleALC-AMD](https://github.com/isKoi/AppleALC)     | SPECIAL KEXT TO ENABLE MICROPHONE ON AMD,(THIS KEXT ALSO HAS A PLUS TO WORK ESPECIALLY WITH ALC287 LENOVO LEGION 5 PRO USING LAYOUT 13; Patches the Apple audio stack (AppleHDA/AppleGFXHDA) to allow unsupported audio codecs and HDMI audio.   |
 | [BrightnessKeys](https://github.com/acidanthera/BrightnessKeys) | Provides support for ACPI brightness change notifications (usually coming from keyboard function (FN) keys). |
 | [ECEnabler](https://github.com/1Revenger1/ECEnabler)    | Allows macOS to read EC fields over 8 bits, eliminating the need to split them manually. |
 | [FeatureUnlock](https://github.com/acidanthera/FeatureUnlock) | Lilu Kernel extension to enable Sidecar, NightShift, AirPlay to Mac, Universal Control, Continuity Camera. |
