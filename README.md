@@ -226,7 +226,7 @@ Si necesitas ayudas en el proceso de creacion de tu EFI **no dudes en escribirme
 
 
 
-**Se parte de ChefKissInc** una comunidad donde hacen posible que todas las laptop AMD puedan usar MAC (haz clic en la imagen)
+**Se parte de ChefKissInc** la comunidad de los creadores del driver para IGPU AMD (entre mas cosas) hacen posible que todas las laptop AMD puedan usar MAC (haz clic en la imagen)
 
 [<img src="https://i0.wp.com/img.talkandroid.com/uploads/2015/05/telegram_app_icon.png" alt="Telegram" width="90" height="90">](https://t.me/+Bx3MO9Hq8whhNzk9)
 
@@ -427,7 +427,7 @@ If you need help with your EFI creation process, **don't hesitate to reach out t
 
 [<img src="https://i0.wp.com/img.talkandroid.com/uploads/2015/05/telegram_app_icon.png" alt="Telegram" width="90" height="90">](https://t.me/JonnyEx)
 
-**Join ChefKissInc**, a community where we make it possible for all AMD laptops to use macOS (click the image below):
+**Join ChefKissInc**, Be part of ChefKissInc** the community of the creators of the AMD IGPU driver (among other things) make it possible for all AMD laptops to use MAC (click the image below):
 
 [<img src="https://i0.wp.com/img.talkandroid.com/uploads/2015/05/telegram_app_icon.png" alt="Telegram" width="90" height="90">](https://t.me/+Bx3MO9Hq8whhNzk9)
 
